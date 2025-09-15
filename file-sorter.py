@@ -7,10 +7,11 @@ from typing import Set, List
 # Config
 SOURCE_PATH = r"put path here"
 DESTINATION_PATH = r"where it should make output folders"
-#remember to seperate with , OUTSIDE OF ""
-EXTENSIONS = [".docx", ".pdf", ".png", ".webp"] 
-#true to look through sub folders false so not
+#remember to separate with , OUTSIDE OF ""
+EXTENSIONS = [".doc", ".pdf", ".png", ".webp"] 
+#True to look through sub folders False to not
 RECURSIVE = True
+#how many files needed before switching copy method
 FILE_COUNT_THRESHOLD = 2000
 
 class FileSorter:
