@@ -27,9 +27,13 @@ then run it with
 
 
 linux
-``` python3 file-sorter.py
+``` 
+python3 file-sorter.py
+
 ```
 windows
-``` double click or
+``` 
+double click or
 python file-sorter.py
+
 ```
