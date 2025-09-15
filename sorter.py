@@ -5,9 +5,11 @@ import time
 from typing import Set, List
 
 # Config
-SOURCE_PATH = "/home/bobateagrl/Documents/copytest"
-DESTINATION_PATH = "/home/bobateagrl/Documents/copytest/test"
+SOURCE_PATH = "put path here"
+DESTINATION_PATH = "where it should make output folders"
+#remember to seperate with , OUTSIDE OF ""
 EXTENSIONS = [".docx", ".pdf", ".png", ".webp"] 
+#true to look through sub folders false so not
 RECURSIVE = True
 FILE_COUNT_THRESHOLD = 2000
 
